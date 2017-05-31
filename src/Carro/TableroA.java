@@ -99,7 +99,7 @@ public class TableroA extends JPanel implements ActionListener, KeyListener,Runn
       
       this.trans.add(new Trans(1100,672));
       this.timer = new Timer(100, this);
-      this.sonido.loop();
+     // this.sonido.loop();
       
       
     }
