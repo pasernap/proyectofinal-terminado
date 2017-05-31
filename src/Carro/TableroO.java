@@ -97,7 +97,7 @@ public class TableroO extends JPanel implements ActionListener, KeyListener{
 
       
       this.timer = new Timer(50, this);
-      this.sonido.loop();
+     // this.sonido.loop();
       this.timer.start();
     }
     @Override
