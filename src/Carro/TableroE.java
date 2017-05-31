@@ -114,7 +114,7 @@ public class TableroE extends JPanel implements ActionListener, KeyListener,Runn
       this.trans.add(new Trans(828-c,672));
       
       this.timer = new Timer(50, this);
-      this.sonido.loop();
+     // this.sonido.loop();
       timer.start();
     }
     @Override
