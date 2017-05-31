@@ -109,7 +109,7 @@ public class TableroI extends JPanel implements ActionListener, KeyListener{
       this.dulce.add(new Dulce(760,604));
       
       this.timer = new Timer(50, this);
-      this.sonido.loop();
+     // this.sonido.loop();
       this.timer.start();
     }
     @Override
